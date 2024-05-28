@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altromondo Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martian+Mono:wght@100..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      class="form"
+      action="https://httpbin.org/anything"
+      method="post"
+      autocomplete="on"
+    >
+      <h1 class="heading">Anmäl mig!</h1>
+      <label for="firstName" hidden>Förnamn</label>
+      <input
+        id="firstName"
+        name="firstName"
+        type="text"
+        required
+        aria-required="true"
+        placeholder="FÖRNAMN*"
+      />
+      <label for="lastName" hidden>Efternamn</label>
+      <input
+        id="lastName"
+        name="lastName"
+        type="text"
+        required
+        aria-required="true"
+        placeholder="EFTERNAMN*"
+      />
+      <label for="email" hidden>E-post</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        required
+        aria-required="true"
+        placeholder="E-POST*"
+      />
+      <label for="mobilnummer" hidden>Mobilnummer</label>
+      <input
+        id="mobilnummer"
+        name="mobilnummer"
+        type="tel"
+        required
+        aria-required="true"
+        placeholder="MOBILNUMMER*"
+      />
+      <label for="password" hidden>Skapa lösenord</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        required
+        aria-required="true"
+        placeholder="SKAPA LÖSENORD*"
+      />
+      <label for="password" hidden>Upprepa lösenord</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        required
+        aria-required="true"
+        placeholder="UPPREPA LÖSENORD*"
+      />
+      <p class="p">Välj din hemstudio</p>
+      <div class="radioButtons">
+        <input type="radio" id="högdalen" name="hemstudio" value="Högdalen" />
+        <label for="högdalen">Högdalen</label>
+        <input type="radio" id="bandhagen" name="hemstudio" value="Bandhagen" />
+        <label for="bandhagen">Bandhagen</label>
+      </div>
+      <div class="radioButtons">
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" />
+        <label for="checkbox"
+          >Ja, jag godkänner GDPR pch integritetspolicy</label
+        >
+      </div>
+      <p class="p2">
+        Läs mer om <a href="">GDPR och vår integritetspolicy.</a>
+      </p>
+      <button class="button" type="submit">REGISTRERA MIG</button>
+      <p class="p3"><a href="">Tillbaka till login</a></p>
+      <br /><br />
+    </form>
+  </body>
+</html>
